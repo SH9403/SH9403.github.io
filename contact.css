@@ -1,0 +1,23 @@
+.touch {
+  font-size: 22px;
+
+  display: inline-block;
+  background-color: rgba(124, 175, 241, 0.392);
+  padding: 35px;
+  padding-top: 20px;
+  border-radius: 15px;
+  font-weight: 700;
+  color: rgb(40, 20, 87);
+}
+
+.contacttag a {
+  color: gray;
+  text-decoration: none;
+  background-color: rgba(0, 132, 255, 0.714);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+h3 {
+  margin-top: 0;
+}

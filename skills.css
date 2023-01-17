@@ -1,0 +1,29 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+li a:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.graybox {
+  display: inline-block;
+  background-color: rgba(192, 190, 190, 0.851);
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: 700;
+  color: rgba(84, 79, 85, 0.947);
+}
+
+body {
+  background-color: rgba(124, 175, 241, 0.392);
+}

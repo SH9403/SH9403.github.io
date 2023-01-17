@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="restaurant.css" />
+    <script src="restaurant.js"></script>
+  </head>
+
+  <body>
+    <div class="flag"><h1>Ramen.YA</h1></div>
+    <header class="header">
+      <nav class="navi">
+        <ul>
+          <li><a href="restaurant.html">メニュー</a></li>
+          <li><a href="watashi.html">私たちについて</a></li>
+          <li><a href="tenpo.html">店舗</a></li>
+          <li><a href="renraku.html">連絡先</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="adress">
+      本社 <br />〒2105-4885 <br />東京都立川市朝日111-241-12
+      <br />042-54878-55
+    </h1>
+
+    <div class="favorite-menu">
+      <h2>お客様へのアンケート</h2>
+
+      <form action="＃" method="post">
+        <p>好きなメニューは？</p>
+        <input
+          id="menu-ramen"
+          type="checkbox"
+          name="answer"
+          value="Ramen"
+          checked
+        />
+        ラーメン<br />
+        <input
+          id="menu-gyoza"
+          type="checkbox"
+          name="answer"
+          value="gyoza"
+        />餃子<br />
+        <input
+          id="menu-edamame"
+          type="checkbox"
+          name="answer"
+          value="edamame"
+        />枝豆<br />
+        <input
+          id="menu-chahan"
+          type="checkbox"
+          name="answer"
+          value="chahan"
+        />チャーハン<br />
+
+        <form action="＃" method="post">
+          <br />
+          <p>利用した店舗名は?</p>
+          <input
+            id="tenpo-tachikawa"
+            type="checkbox"
+            name="answer"
+            value="tachikawa"
+            checked
+          />
+          立川<br />
+          <input
+            id="tenpo-tsukuba"
+            type="checkbox"
+            name="answer"
+            value="tsukuba"
+          />筑波<br />
+          <input
+            id="tenpo-akihabara"
+            type="checkbox"
+            name="answer"
+            value="akihabara"
+          />秋葉原<br />
+        </form>
+
+        <form action="＃" method="post">
+          <br />
+          <p>満足度は?</p>
+          <input
+            id="manzokudo-taihen-manzokku"
+            type="checkbox"
+            name="answer"
+            value="taihen-manzoku"
+            checked
+          />
+          大変満足した<br />
+          <input
+            id="manzokudo-manzoku"
+            type="checkbox"
+            name="answer"
+            value="manzoku"
+          />満足した<br />
+          <input
+            id="manzokudo-fuman"
+            type="checkbox"
+            name="answer"
+            value="fuman"
+          />不満がある<br />
+        </form>
+        <br />
+
+        <label for="remarks">意見箱</label><br />
+        <textarea
+          name="textarea"
+          id="remarks"
+          placeholder="ご意見を入力してください"
+        ></textarea
+        ><br />
+        <input type="submit" value="送信" /><br />
+      </form>
+    </div>
+  </body>
+</html>

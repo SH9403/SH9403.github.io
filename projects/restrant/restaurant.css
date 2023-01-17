@@ -1,0 +1,126 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin: 20px 20px 40px 20px;
+}
+.navi {
+  width: 100%;
+
+  padding-top: 15px;
+  /* box-sizing: border-box; */
+}
+.navi ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.navi ul li {
+  margin-right: 80px;
+}
+.navi ul li a {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+.rekishi {
+  text-align: center;
+  margin: 80px 80px 30px 20px;
+}
+.history {
+  font-size: 22px;
+  text-align: center;
+}
+.menu {
+  margin: 20px auto;
+}
+.menu p {
+  display: inline-block;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 100%;
+  height: 220px;
+}
+.tenpo-map {
+  list-style: none;
+  text-align: center;
+  margin: 30 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+img {
+  width: 300px;
+  height: 250px;
+}
+
+.pic {
+  display: flex;
+  font-weight: 900;
+  min-height: 300px;
+  border-top: 3px solid red;
+}
+
+.pic:last-child {
+  border-bottom: 3px solid red;
+}
+
+.pic img,
+.pic div {
+  flex: 1;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+}
+
+.adress {
+  font-size: 20px;
+  border: 2px dashed #c9f506;
+  padding: 10px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.favorite-menu {
+  text-align: center;
+  border: 2px dashed #c9f506;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+textarea {
+  padding: 10px;
+  height: 100px;
+  font-size: 14px;
+  width: 65%;
+}
+
+.flag {
+  background-image: url("flag.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.flag h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  color: white;
+}
+
+body {
+  margin: 0px;
+}
+
+.picinside {
+  background-size: cover;
+  background-position: center;
+}

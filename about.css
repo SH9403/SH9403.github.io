@@ -1,0 +1,18 @@
+h1 {
+  color: white;
+}
+
+p {
+  font-size: 22px;
+
+  display: inline-block;
+  background-color: rgba(124, 175, 241, 0.392);
+  padding: 45px;
+  border-radius: 15px;
+  font-weight: 700;
+  color: rgb(40, 20, 87);
+}
+
+body {
+  background-color: rgba(34, 55, 79, 0.482);
+}
